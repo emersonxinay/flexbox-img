@@ -1,4 +1,4 @@
 # flexbox-img
 
 ### link : 
-<a> https://emersonxinay.github.io/flexbox-img/ </a>
+<a target="blank"> https://emersonxinay.github.io/flexbox-img/ </a>
