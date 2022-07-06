@@ -1,0 +1,121 @@
+.graphic{
+  position: relative;
+  display: grid;
+  padding-top: 3rem;
+  /* con fr no es necesario poner una tercer valor porque lo agarra de manera automatica */
+  grid-template-columns: 1fr 75% ;
+}
+/* hombre  */
+.graphic-man{
+  width: 100%;
+  grid-column-start: 2;
+}
+.absolute{
+  position: absolute;
+}
+/* logo o react  */
+#logo{
+  height: 10rem;
+  width: 10rem;
+  width: 35%;
+  mix-blend-mode: screen;
+  top: 34%;
+  right: 30%;
+  
+
+}
+/* ruby  */
+.graphic-ruby {
+  position: absolute;
+  width: 10%;
+  mix-blend-mode: screen;
+  top: 34%;
+  right: 0%;
+  transform: rotate(10deg);
+  animation: turn3 10s linear infinite;
+
+}
+.graphic-react {
+  position: absolute;
+  width: 10%;
+  mix-blend-mode: screen;
+  top: 64%;
+  right: 0%;
+  transform: rotate(10deg);
+  animation: turn3 10s linear infinite;
+
+}
+.graphic-html {
+  position: absolute;
+  width: 10%;
+  mix-blend-mode: screen;
+  top: 4%;
+  right: 20%;
+  transform: rotate(10deg);
+  animation: turn3 10s linear infinite;
+
+}
+
+.graphic-bootstrap {
+  position: absolute;
+  width: 10%;
+  mix-blend-mode: screen;
+  top: 4%;
+  right: 50%;
+  transform: rotate(10deg);
+  animation: turn3 10s linear infinite;
+
+}
+.graphic-circles{
+  height: 100%;
+  aspect-ratio: 1 / 1;
+}
+.graphic-circles img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+}
+
+/* animacion */
+/* heroku */
+.graphic-energy {
+
+  transform: rotate(10deg);
+  animation: turn1 10s linear infinite;
+}
+/* bootstrap */
+.graphic-circle-1 {
+
+  right: 30%;
+  transform: rotate(10deg);
+  animation: turn4 20s linear infinite;
+}
+/* html */
+.graphic-circle-2 {
+
+  animation: turn2 20s linear infinite;
+  grid-column-start: 6;
+}
+
+@keyframes turn1 {
+  to {
+    transform: rotate(-1turn);
+  }
+}
+@keyframes turn2 {
+  to {
+    transform: rotate(-1turn);
+  }
+}
+@keyframes turn3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes turn4 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
