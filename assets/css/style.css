@@ -24,3 +24,33 @@ body {
 .flex{
   display: flex;
 }
+h1 span a {
+  text-decoration: none;
+  color: aqua;
+}
+
+footer {
+  
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  left: 30%;
+
+  color: #ffffff;
+
+  
+  
+}
+
+footer p span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer p {
+  text-align: center;
+}
+.linea {
+  color: aqua;
+}
