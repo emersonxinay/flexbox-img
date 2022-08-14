@@ -8,8 +8,9 @@ html, body {
 body {
   font-family: Manrope, sans-serif;;
   line-height: 1.6;
-  background: radial-gradient( 79% 251.58% at 23.18% 73.07%, #0142a0 0, #0f133a 44.41%, #101034 56.43%, #141034 69.58%, #301436 100%, #411958 0 );
-  color: #ffffff;
+  /* background: radial-gradient( 79% 251.58% at 23.18% 73.07%, #0142a0 0, #0f133a 44.41%, #101034 56.43%, #141034 69.58%, #301436 100%, #411958 0 ); */
+  background: rgb(7,94,131);
+  background: linear-gradient(90deg, rgba(7,94,131,1) 0%, rgba(5,19,36,1) 65%, rgba(0,0,3,1) 100%);
   padding:  2rem 1rem 0;
 }
 
